@@ -15,5 +15,5 @@ This is an open source project Josh Dzielak to help handle webhooks from Discour
 - [https://github.com/algolia/discourse-webhook-collector](https://github.com/algolia/discourse-webhook-collector)
 
 # Contributors 
-- Josh Dzielak
+- [Josh Dzielak](https://github.com/dzello)
   
