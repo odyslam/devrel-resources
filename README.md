@@ -37,6 +37,9 @@ https://www.thagomizer.com/blog/2017/11/30/personal-brand.html |
 | -------- | -------- | -------- |
 | DevRel collective curated tools list| list | https://github.com/devrelcollective/awesome-devrel | 
 
+# Thematic Guides
+- [Discourse](Discourse.md)
+
 # About
 
 This list has been curated with <3 by Odysseas Lamtzidis using [HackMD](https://hackmd.io)
