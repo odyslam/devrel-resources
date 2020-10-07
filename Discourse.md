@@ -21,8 +21,8 @@ This is an open source project Josh Dzielak to help handle webhooks from Discour
 
 ## Discourse Themes
 
-[Developer’s guide to Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966)
-[Beginners' guide to using Theme Creator and Theme CLI to start building a Discourse theme](https://meta.discourse.org/t/developer-s-guide-to-discourse-themes/93648)
-[Designer's Guide to Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-theme-creator-and-theme-cli-to-start-building-a-discourse-theme/108444)
-[How do I install a Theme or Theme Component?](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682)
+ - [Developer’s guide to Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966)
+ - [Beginners' guide to using Theme Creator and Theme CLI to start building a Discourse theme](https://meta.discourse.org/t/developer-s-guide-to-discourse-themes/93648)
+ - [Designer's Guide to Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-theme-creator-and-theme-cli-to-start-building-a-discourse-theme/108444)
+ - [How do I install a Theme or Theme Component?](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682)
 
