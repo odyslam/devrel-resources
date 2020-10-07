@@ -16,6 +16,7 @@ This is an open source project Josh Dzielak to help handle webhooks from Discour
 
 # Contributors 
 - [Josh Dzielak](https://github.com/dzello)
+- [Odysseas Lamtzidis](https://github.com/odyslam)
 
 # Resources
 
