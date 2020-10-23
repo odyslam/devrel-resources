@@ -36,6 +36,8 @@ https://www.thagomizer.com/blog/2017/11/30/personal-brand.html |
 | Name | Type | URL |
 | -------- | -------- | -------- |
 | DevRel collective curated tools list| list | https://github.com/devrelcollective/awesome-devrel | 
+| SavannahHQ | Community CRM | https://savannahhq.com/ | 
+| Orbit.Love | Community CRM | https://orbit.love | 
 
 # Thematic Guides
 - [Discourse](Discourse.md)
