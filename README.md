@@ -24,8 +24,7 @@ If you feel that something is missing, please do make a PR. As this repository g
 # Developer Relations
 | Name | Type | URL |
 | -------- | -------- | -------- |
-| Personal Brand | Article | 	
-https://www.thagomizer.com/blog/2017/11/30/personal-brand.html | 
+| Personal Brand | Article | 	https://www.thagomizer.com/blog/2017/11/30/personal-brand.html | 
 | How to Build an engaged developer community | PDF | https://hosteddocs.emediausa.com/AH-How%20to%20build%20an%20engaged%20developer%20community.pdf| 
 | The business value of Developer Relations | Book | https://www.amazon.com/Business-Value-Developer-Relations-Communities/dp/1484237471 | 
 | KPIs for community Managers & Online Forums, by Vanilla Forums | PDF | https://pages.vanillaforums.com/kpis-for-community-and-community-managers | 
@@ -44,7 +43,10 @@ https://www.thagomizer.com/blog/2017/11/30/personal-brand.html |
 
 # About
 
-This list has been curated with <3 by Odysseas Lamtzidis using [HackMD](https://hackmd.io)
+This list has been curated with <3 by Odysseas Lamtzidis using [HackMD](https://hackmd.io). 
+
+Odysseas is working as a Developer 🥑 at [Netdata](https://netdata.cloud) and blogs at [Odyslam.me/blog](https://odyslam.me/blog/).
+
 
 
 
