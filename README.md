@@ -37,6 +37,7 @@ If you feel that something is missing, please do make a PR. As this repository g
 | DevRel collective curated tools list| list | https://github.com/devrelcollective/awesome-devrel | 
 | SavannahHQ | Community CRM | https://savannahhq.com/ | 
 | Orbit.Love | Community CRM | https://orbit.love | 
+| GrimoireLabs| Software Development Analysis | https://chaoss.github.io/grimoirelab/ | 
 
 # Thematic Guides
 - [Discourse](Discourse.md)
