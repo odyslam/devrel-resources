@@ -1,4 +1,40 @@
-# Setting up Discourse checklist
+# Discourse forum checklist
+
+- [ ] Decide on hosting method for Discourse
+- [ ] Prepare branding assets (e.g logotype, icon, category images) according to the sizes mentioned in the same settings category
+  - [ ] Make list assets and create them or make request from design team
+- [ ] Prepare Code of Conduct, Terms of Service, Privacy Policy, and Forum Guidelines
+- [ ] Assess & install social logins and decide on data strategy
+- [ ] Align on top navigation bar information architecture
+  - [ ] Install and setup required theme components
+- [ ] Write announcement post that could be displayed as a banner post to all new users
+- [ ] Write a small introductory post about the community team, who they are, their experience and what color they like. Make it personal.
+- [ ] Setup categories, sub-categories, tags
+- [ ] Assess on what custom user fields you want
+- [ ] Evaluate sitemap/web-crawler settings
+- [ ] Setup Private Groups
+  - [ ] Setup "X employees" private group that people will automatically join based on the domain (@company) of the signup mail. 
+  - [ ] Setup other public user groups that are relevant to the community (e.g MVP users)
+  - [ ] Setup categories that are only accessible and/or visible to specific user groups
+- [ ] Setup Google Analytics (add GA code from Google console)
+- [ ] Setup Narrative Bot's message (welcome bot)
+- [ ] Assess native discourse app banner notifications for mobile users
+- [ ] Assess to enable/disable whispers and dms
+- [ ] Setup default landing page
+- [ ] Assess a Feature Requests category with the `voting` plugin enabled
+- [ ] Assess a topic template (e.g Support category: template like in GitHub issues)
+- [ ] Align on SQL queries which are relevant to your metrics/KPIs and you will use to monitor the community.
+  - [ ] Assess automatic RESTful export of results to a data warehouse and/or visualization tool.
+- [ ] Setup Discourse integrations
+  - [ ] Setup Community CRM to integrate with Discourse
+  - [ ] Setup integration for data extraction to company CRM
+  - [ ] Setup SSO with main product (if SaaS)
+  - [ ] Setup chat integration (e.g slack)
+  - [ ] Setup integration with GitHub
+  - [ ] Setup other integrations (e.g community plugins)
+- [ ] Compile a support handbook for the rest of the team (engineers, product, etc.)
+
+
 
 
 # Trust Levels
@@ -34,19 +70,25 @@ Discourse has a first-class integration with Slack (amongst other chat platforms
 
 - If you want your company (teammates, colleagues, etc.) to be active on the Discourse, make sure they can see the activity that happens there without having to visit (which they won't until it becomes a habit). An easy way to do that is to pipe Discourse topics into a Slack channel that anyone in the company can join, and then see if anything comes up that they could provide a response to. To go a step further, create some fun incentives inside the company for interacting with the community on the Discourse, like a special sticker or t-shirt.
 
-# Links
-
-👋  Here's a post Josh Dzielak wrote about setting up Algolia's Discourse that goes over some key Discourse concepts: 
-
-- [https://blog.algolia.com/algolia-community-forum-pioneer-badge/](https://blog.algolia.com/algolia-community-forum-pioneer-badge/)
-
-This is an open source project Josh Dzielak to help handle webhooks from Discourse so it can be hooked up to other systems:
-
-- [https://github.com/algolia/discourse-webhook-collector](https://github.com/algolia/discourse-webhook-collector)
 
 # Contributors 
 - [Josh Dzielak](https://github.com/dzello)
 - [Odysseas Lamtzidis](https://github.com/odyslam)
+
+
+# Legal
+
+## Code of Conduct
+
+## Terms of Service
+
+## Privacy Policy
+
+## Forum Guidelines
+
+Discourse has some defaults that are good enough for most cases. They are auto-populated when you create the forum.
+
+✅ [Example](https://meta.discourse.org/faq)
 
 # Resources
 
@@ -57,3 +99,12 @@ This is an open source project Josh Dzielak to help handle webhooks from Discour
  - [Designer's Guide to Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-theme-creator-and-theme-cli-to-start-building-a-discourse-theme/108444)
  - [How do I install a Theme or Theme Component?](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682)
 
+## Links
+
+👋  Here's a post Josh Dzielak wrote about setting up Algolia's Discourse that goes over some key Discourse concepts: 
+
+- [https://blog.algolia.com/algolia-community-forum-pioneer-badge/](https://blog.algolia.com/algolia-community-forum-pioneer-badge/)
+
+This is an open source project Josh Dzielak to help handle webhooks from Discourse so it can be hooked up to other systems:
+
+- [https://github.com/algolia/discourse-webhook-collector](https://github.com/algolia/discourse-webhook-collector)
