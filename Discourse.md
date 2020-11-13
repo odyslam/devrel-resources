@@ -1,3 +1,5 @@
+# Why, How, What
+
 # Discourse forum checklist
 
 - [ ] Decide on hosting method for Discourse
@@ -5,7 +7,7 @@
   - [ ] Make list assets and create them or make request from design team
 - [ ] Prepare Code of Conduct, Terms of Service, Privacy Policy, and Forum Guidelines
 - [ ] Assess & install social logins and decide on data strategy
-- [ ] Align on top navigation bar information architecture
+- [ ] Align with team on top navigation bar information architecture
   - [ ] Install and setup required theme components
 - [ ] Write announcement post that could be displayed as a banner post to all new users
 - [ ] Write a small introductory post about the community team, who they are, their experience and what color they like. Make it personal.
@@ -23,7 +25,7 @@
 - [ ] Setup default landing page
 - [ ] Assess a Feature Requests category with the `voting` plugin enabled
 - [ ] Assess a topic template (e.g Support category: template like in GitHub issues)
-- [ ] Align on SQL queries which are relevant to your metrics/KPIs and you will use to monitor the community.
+- [ ] Align with team on SQL queries which are relevant to your metrics/KPIs and you will use to monitor the community.
   - [ ] Assess automatic RESTful export of results to a data warehouse and/or visualization tool.
 - [ ] Setup Discourse integrations
   - [ ] Setup Community CRM to integrate with Discourse
@@ -35,7 +37,11 @@
 - [ ] Compile a support handbook for the rest of the team (engineers, product, etc.)
 
 
+# Discourse Hosting
 
+## Self-hosted Discourse
+
+## Hosted Discourse 
 
 # Trust Levels
 
@@ -52,19 +58,24 @@ Users can vote on their favorite features and chat bellow them, discussing among
 
 Finally, there is the [Kanban theme component](https://meta.discourse.org/t/kanban-board-theme-component/118164) which can be used by the product team to easily visuzalise from inside the platform the state of each feature request (e.g ideation, implementation, etc.)
 
-# Discourse - Slack
+
+# Integrations
+
+## Slack
 
 A lot of communities evolve in supporting both Slack and Discourse, usually starting with slack and then moving to a forum software.
 
-## Integrations
 Discourse has a first-class integration with Slack (amongst other chat platforms), which is highly customizable. It enables 2-way sync, meaning that Discourse posts/topics can be automagically be posted as a feed on slack while slack chats can be posted as transcripts on discourse. **All within the integration.**
 
 ➡️ Read more on [meta.discourse](https://meta.discourse.org/t/chatroom-integration-plugin-discourse-chat-integration/66522).
 
-## Why a forum over a chatroom
+### Why a forum over a chatroom
 - Questions/Answer are persisting and easily searchable, this leads to an organic Knowledge Base that is curated by the community itself.
 - Slack requires more active participation to extract real value, otherwise it's a rolling feed of people who chat. It's hard to get a sense of what is going on if you don't visit often.
 
+## Community CRMs
+
+## Company CRMs (e.g Salesforce, Hubspot)
 
 # General Tips
 
