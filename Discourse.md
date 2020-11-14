@@ -11,16 +11,16 @@
   - [ ] Install and setup required [theme components](#theme-components)
 - [ ] Write announcement post that could be displayed as a [banner post](https://meta.discourse.org/t/new-banner-topic-pin-type/16458) to all new users
 - [ ] Write a small introductory post about the community team, who they are, their experience and what color they like. Make it personal.
-- [ ] Setup [categories](https://meta.discourse.org/t/how-to-add-categories/71859), sub-categories, tags
+- [ ] Setup [categories](https://meta.discourse.org/t/how-to-add-categories/71859), [sub-categories](https://meta.discourse.org/t/understanding-subcategories/69564), [tags](https://meta.discourse.org/t/a-comprehensive-guide-to-discourse-tags/121041)
 - [ ] Assess on what [custom user fields](https://meta.discourse.org/t/how-to-create-and-configure-custom-user-fields/113192) you want
-- [ ] Evaluate sitemap/web-crawler settings
+- [ ] Evaluate [sitemap](https://meta.discourse.org/t/discourse-sitemap/40348)/web-crawler settings
 - [ ] Setup [Groups](https://meta.discourse.org/t/guide-to-groups/110064)
-  - [ ] Setup "X employees" private group that people will automatically join based on the domain (@company) of the signup mail. 
+  - [ ] Setup "X employees" [private group](#private-groups) that people will automatically join based on the domain (@company) of the signup mail. 
   - [ ] Setup other public user groups that are relevant to the community (e.g MVP users)
   - [ ] Setup categories that are only accessible and/or visible to specific user groups
-- [ ] Setup Google Analytics (add GA code from Google console)
+- [ ] Setup [Google Analytics](https://meta.discourse.org/t/how-to-put-traffic-analytics-code/88320) (add GA code from Google console)
 - [ ] Setup [Narrative Bot's](https://meta.discourse.org/t/discourse-narrative-bot-beta-feedback/58621) message (welcome bot)
-- [ ] Assess native discourse app banner notifications for mobile users
+- [ ] Assess native [Discourse app banner notifications](https://meta.discourse.org/t/native-app-install-banner-for-android-and-ios/55056) for mobile users
 - [ ] Assess to [enable/disable whispers](https://meta.discourse.org/t/whispers-vs-staff-notes/95305) and dms
 - [ ] Setup default landing page
 - [ ] Assess a Feature Requests category with the [voting plugin](https://meta.discourse.org/t/discourse-voting/40121?u=joebuhlig) enabled
@@ -29,7 +29,7 @@
   - [ ] Assess automatic RESTful export of results to a data warehouse and/or visualization tool.
 - [ ] Setup Discourse integrations
   - [ ] Setup Community CRM to integrate with Discourse
-  - [ ] Setup integration for data extraction to company CRM
+  - [ ] Setup integration for [data extraction](#export-community-data) to company CRM
   - [ ] Setup [SSO](https://meta.discourse.org/t/official-single-sign-on-for-discourse-sso/13045) with main product (if SaaS)
   - [ ] Setup [chat integration](#slack) (e.g slack)
   - [ ] Setup integration with [GitHub](https://meta.discourse.org/t/discourse-github/99895)
@@ -39,13 +39,13 @@
 
 # Discourse Hosting
 
-Discourse is an open-source piece of software, thus the user can either select to self-host or use the hosted version of Discourse. 
+Discourse is an [open-source piece of software](https://github.com/discourse/discourse), thus the user can either select to self-host or use the hosted version of Discourse. 
 
 ## Self-hosted Discourse
 
 Self-hosting has a number of advantages, the biggest of all is the ability to install any community and official plugin that exists, extending the forum (and the community) in any direction you seem fit. 
 
-On top of that, you have direct access to the production database which you can easily have it cloned everyday and use the cloned database for analytics or enrichment of the company's data lake. The hosted discourse can't provide direct access to the data-base, but you can use the [data explorer](https://meta.discourse.org/t/data-explorer-plugin/32566) plugin to run queries and extract the results [programmatically](https://meta.discourse.org/t/how-to-run-data-explorer-queries-with-the-discourse-api/120063) via a RESTful interface. 
+On top of that, you have direct access to the production database which you can easily have it cloned everyday and use the cloned database for analytics or enrichment of the company's data lake. The hosted Discourse can't provide direct access to the data-base, but you can use the [data explorer](https://meta.discourse.org/t/data-explorer-plugin/32566) plugin to run queries and extract the results [programmatically](https://meta.discourse.org/t/how-to-run-data-explorer-queries-with-the-discourse-api/120063) via a RESTful interface. 
 
 ### Quickstart container
 
@@ -77,7 +77,7 @@ As the company underlines, since they give the entirety of their software stack 
 
 The [hosting plans](https://www.discourse.org/pricing) come in 3 tiers, with the gotcha being that you can't install any community plugin, but you have a predetermined list of supported plugins.
 
-The important upside to hosted discourse is that you can focus your energy on setting up the forum and the community strategy behind it, without having to deal with a self-hosted solution. On top of that, you have very good private support, which is another cost-saving feature.
+The important upside to hosted Discourse is that you can focus your energy on setting up the forum and the community strategy behind it, without having to deal with a self-hosted solution. On top of that, you have very good private support, which is another cost-saving feature.
 
 All in all, **you buy time.**
 
@@ -100,8 +100,13 @@ Users can vote on their favorite features and chat bellow them, discussing among
 
 Finally, there is the [Kanban theme component](https://meta.discourse.org/t/kanban-board-theme-component/118164) which can be used by the product team to easily visuzalise from inside the platform the state of each feature request (e.g ideation, implementation, etc.)
 
+# Groups
+
+## Private Groups
 
 # Integrations
+
+## Export community data
 
 ## Social Logins
 
