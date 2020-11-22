@@ -1,40 +1,42 @@
 # Why, How, What
 
+
 # Discourse forum checklist
 
-- [ ] Decide on [hosting method](#discourse-hosting) for Discourse
-- [ ] Prepare branding assets (e.g logotype, icon, category images) according to the sizes mentioned in the same settings category
-  - [ ] Make list of assets and create them or make request from design team
-- [ ] Prepare [Code of Conduct](#code-of-conduct), [Terms of Service](#terms-of-service), [Privacy Policy](#privacy-policy), and [Forum Guidelines](#forum-guidelines)
-- [ ] Assess & install [social logins](#social-logins) and decide on data strategy
-- [ ] Align with team on top navigation bar information architecture
-  - [ ] Install and setup required [theme components](#theme-components)
-- [ ] Write announcement post that could be displayed as a [banner post](https://meta.discourse.org/t/new-banner-topic-pin-type/16458) to all new users
+- [ ] Decide on [hosting method](#discourse-hosting) for Discourse.
+- [ ] Decide the default landing page (latest topics, categories, etc.). **This must be set during the `/wizard` setup.**
+- [ ] Prepare branding assets (e.g logotype, icon, category images) according to the sizes mentioned in the same settings category.
+  - [ ] Make list of assets and create them or make request from design team.
+- [ ] Prepare [Code of Conduct](#code-of-conduct), [Terms of Service](#terms-of-service), [Privacy Policy](#privacy-policy), and [Forum Guidelines](#forum-guidelines).
+- [ ] Assess & install [social logins](#social-logins) and decide on data strategy.
+- [ ] Align with team on top navigation bar information architecture.
+  - [ ] Install and setup required [theme components](#theme-components).
+- [ ] Write announcement post that could be displayed as a [banner post](https://meta.discourse.org/t/new-banner-topic-pin-type/16458) to all new users.
 - [ ] Write a small introductory post about the community team, who they are, their experience and what color they like. Make it personal.
 - [ ] Setup [categories](https://meta.discourse.org/t/how-to-add-categories/71859), [sub-categories](https://meta.discourse.org/t/understanding-subcategories/69564), [tags](https://meta.discourse.org/t/a-comprehensive-guide-to-discourse-tags/121041)
 - [ ] Assess on what [custom user fields](https://meta.discourse.org/t/how-to-create-and-configure-custom-user-fields/113192) you want
 - [ ] Evaluate [sitemap](https://meta.discourse.org/t/discourse-sitemap/40348)/web-crawler settings
 - [ ] Setup [Groups](https://meta.discourse.org/t/guide-to-groups/110064)
   - [ ] Setup "X employees" [private group](#private-groups) that people will automatically join based on the domain (@company) of the signup mail. 
-  - [ ] Setup other public user groups that are relevant to the community (e.g MVP users)
-  - [ ] Setup categories that are only accessible and/or visible to specific user groups
+  - [ ] Setup other public user groups that are relevant to the community (e.g MVP users).
+  - [ ] Setup categories that are only accessible and/or visible to specific user groups.
 - [ ] Setup [Google Analytics](https://meta.discourse.org/t/how-to-put-traffic-analytics-code/88320) (add GA code from Google console)
-- [ ] Setup [Narrative Bot's](https://meta.discourse.org/t/discourse-narrative-bot-beta-feedback/58621) message (welcome bot)
-- [ ] Assess native [Discourse app banner notifications](https://meta.discourse.org/t/native-app-install-banner-for-android-and-ios/55056) for mobile users
+- [ ] Setup [Narrative Bot's](https://meta.discourse.org/t/discourse-narrative-bot-beta-feedback/58621) message (welcome bot).
+- [ ] Assess native [Discourse app banner notifications](https://meta.discourse.org/t/native-app-install-banner-for-android-and-ios/55056) for mobile users.
 - [ ] Assess to [enable/disable whispers](https://meta.discourse.org/t/whispers-vs-staff-notes/95305) and dms
-- [ ] Setup default landing page
-- [ ] Assess a Feature Requests category with the [voting plugin](https://meta.discourse.org/t/discourse-voting/40121?u=joebuhlig) enabled
-- [ ] Assess a [topic template](https://meta.discourse.org/t/what-are-topic-templates/38295) (e.g Support category: template like in GitHub issues)
+- [ ] Assess a Feature Requests category with the [voting plugin](https://meta.discourse.org/t/discourse-voting/40121?u=joebuhlig). enabled
+- [ ] Assess a [topic template](https://meta.discourse.org/t/what-are-topic-templates/38295) (e.g Support category: template like in GitHub issues).
 - [ ] Align with team on [SQL queries](https://meta.discourse.org/t/what-cool-data-explorer-queries-have-you-come-up-with/43516) which are relevant to your metrics/KPIs and you will use to monitor the community.
-  - [ ] Assess automatic RESTful export of results to a data warehouse and/or visualization tool.
-- [ ] Setup Discourse integrations
-  - [ ] Setup Community CRM to integrate with Discourse
-  - [ ] Setup integration for [data extraction](#export-community-data) to company CRM
-  - [ ] Setup [SSO](https://meta.discourse.org/t/official-single-sign-on-for-discourse-sso/13045) with main product (if SaaS)
+  - [ ] Assess automatic [RESTful export](https://meta.discourse.org/t/how-to-run-data-explorer-queries-with-the-discourse-api/120063/26) of results to a data warehouse and/or visualization tool.
+- [ ] Setup Discourse integrations.
+  - [ ] Setup [Community CRM](#community-crms) to integrate with Discourse.
+  - [ ] Setup integration for [data extraction](#export-community-data) to company CRM.
+  - [ ] Setup [SSO](https://meta.discourse.org/t/official-single-sign-on-for-discourse-sso/13045) with main product (if SaaS).
   - [ ] Setup [chat integration](#slack) (e.g slack)
-  - [ ] Setup integration with [GitHub](https://meta.discourse.org/t/discourse-github/99895)
-  - [ ] Setup other [integrations](#integrations) (e.g community plugins)
-- [ ] Compile a support handbook for the rest of the team (engineers, product, etc.)
+  - [ ] Setup integration with [GitHub](https://meta.discourse.org/t/discourse-github/99895).
+  - [ ] Setup other [integrations](#integrations) (e.g community plugins).
+- [ ] Compile a support handbook for the rest of the team (engineers, product, etc.).
+  - [ ] Gitlab, as always, can serve as an idea starting point with their open-sourced [handbook](https://about.gitlab.com/handbook/support/).
 
 
 # Discourse Hosting
@@ -139,6 +141,10 @@ Discourse has a first-class integration with Slack (amongst other chat platforms
 # Legal
 
 ## Code of Conduct
+
+The code of conduct is a very important tool, especially for bigger communities where they attract a large number of people. It is no secret in the internet, that communities can turn toxic quite fast, with people creating a negative impact on the community and it's growth potential. In that regard, the code of conduct is a clear set of laws that the community abides by. In case of violation, you have clear grounds to apply any measure you deem necessary.
+
+
 
 ## Terms of Service
 
