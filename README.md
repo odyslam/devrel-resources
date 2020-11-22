@@ -29,6 +29,7 @@ If you feel that something is missing, please do make a PR. As this repository g
 | The business value of Developer Relations | Book | https://www.amazon.com/Business-Value-Developer-Relations-Communities/dp/1484237471 | 
 | KPIs for community Managers & Online Forums, by Vanilla Forums | PDF | https://pages.vanillaforums.com/kpis-for-community-and-community-managers | 
 | AAA-RRR-P Pirate metrics for DevRel | Presentation | https://devrel.net/strategy-and-metrics/introducing-aaarrrp-devrel-strategy | 
+| The dark matter developers | Article | https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99 | 
 
 # Tools
 
