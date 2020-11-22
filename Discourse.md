@@ -265,6 +265,11 @@ Discourse has some defaults that are good enough for most cases. They are auto-p
 
 # Resources
 
+## Migrations
+
+- Nodebb to Discourse: Discourse has released an official guide and tool on [meta.discourse.org](https://meta.discourse.org/t/importing-nodebb-mongodb-to-discourse/126553). 
+  - I have written a [blog post](https://odyslam.me/blog/Migrating-from-Nodebb-to-Discourse/) regarding some "gotchas" that I found in the process.
+
 ## Discourse Themes
 
  - [Developer’s guide to Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966)
