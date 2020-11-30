@@ -105,7 +105,7 @@ Discourse is not officially supporting Kubernetes, but as with any hype, there a
 
 The results have been mixed and there is an ongoing discussion on [meta.discourse](https://meta.discourse.org/t/installing-on-kubernetes/49329).
 
-Moreover, bitnami has released a [](https://hub.helm.sh/charts/bitnami/discourse)] for discourse. Note, that this release is not maintained by Discourse, thus you depend on bitnami to update the chart with the latest releases of Discourse.
+Moreover, bitnami has released a [helm chart](https://hub.helm.sh/charts/bitnami/discourse)] for discourse. Note, that this release is not maintained by Discourse, thus you depend on bitnami to update the chart with the latest releases of Discourse.
 
 ## Hosted Discourse 
 
@@ -145,6 +145,8 @@ Private groups are a great way for a team of users to communicate over issues th
 In open-source projects, this could be used for a discussion board between the engineers of the company and the maintainers who maintain the binary packages of the product in various linux distributions. Depending on company policy, this group could have the discussions in a hidden category or a public category where only people from  certain groups can publish. This is important so as to keep the category on topic and without noise.
 
 # Integrations
+
+Some tips on integrations.
 
 ## Export community data
 
@@ -226,6 +228,10 @@ All the following options work with Discourse:
 3) [GrimoireLab](https://chaoss.github.io/grimoirelab/)
 
 ## Company CRMs (e.g Salesforce, Hubspot)
+
+Discourse will gather in time, interesting information about your users and possibly customers. DevRel qualified leads are very important, as community membmers are much better customers than non-community membrers. This information regarding the community activity of each customer is important to exist on your CRM, so that the sales team can act on it.
+
+Using the Data Explorer and Discourse API, you can extract any informatio that you seem relevant, import it to your data lake (e.g Google BigQuery) and from there export it to your company CRM using their APIs. This setup, albeit more complex than using a service such as Zapier, offers much more flexibility.
 
 # General Tips
 
