@@ -44,6 +44,28 @@ If you feel that something is missing, please do make a PR. As this repository g
 # Thematic Guides
 - [Discourse](Discourse.md)
 
+# Engineering Blogs
+
+* Netflix Tech Blog: https://medium.com/@NetflixTechBlog
+
+* Facebook Engineering blog: [https://engineering.fb.com](https://engineering.fb.com/ "https://engineering.fb.com/")
+
+* Stripe Engineering sub-section of their blog: https://stripe.com/blog/engineering
+
+* Instagram Engineering: [https://instagram-engineering.com](https://instagram-engineering.com/ "https://instagram-engineering.com/")
+
+* AirBnB Engineering: https://medium.com/airbnb-engineering
+
+* Spotify Engineering: [https://engineering.atspotify.com](https://engineering.atspotify.com/ "https://engineering.atspotify.com/")
+
+* Twitter Engineering: https://blog.twitter.com/engineering/
+
+* Uber Engineering: [https://eng.uber.com](https://eng.uber.com/ "https://eng.uber.com/")
+
+* https://www.bigeng.io/
+
+* https://www.hashicorp.com/blog/categories/hashicorp-voices
+
 # About
 
 This list has been curated with <3 by Odysseas Lamtzidis using [HackMD](https://hackmd.io). 
