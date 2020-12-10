@@ -31,6 +31,7 @@ If you feel that something is missing, please do make a PR. As this repository g
 | AAA-RRR-P Pirate metrics for DevRel | Presentation | https://devrel.net/strategy-and-metrics/introducing-aaarrrp-devrel-strategy | 
 | The dark matter developers | Article | https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99 | 
 | Setting Realistic Online Community Growth Expectations | Article | https://blog.vanillaforums.com/setting-realistic-online-community-growth-expectations?utm_campaign=DevRel%2BWeekly&utm_medium=email&utm_source=DevRel_Weekly_114 | 
+| 12 Metrics you can't miss in your community | Article | https://medium.com/@emiagazzoni/12-m%C3%A9tricas-que-voc%C3%AA-n%C3%A3o-pode-deixar-de-acompanhar-na-sua-comunidade-690524288909 | 
 
 # Tools
 
