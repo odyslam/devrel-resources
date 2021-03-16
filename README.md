@@ -30,6 +30,8 @@ If you feel that something is missing, please do make a PR. As this repository g
 | KPIs for community Managers & Online Forums, by Vanilla Forums | PDF | https://pages.vanillaforums.com/kpis-for-community-and-community-managers | 
 | AAA-RRR-P Pirate metrics for DevRel | Presentation | https://devrel.net/strategy-and-metrics/introducing-aaarrrp-devrel-strategy | 
 | The dark matter developers | Article | https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99 | 
+| Setting Realistic Online Community Growth Expectations | Article | https://blog.vanillaforums.com/setting-realistic-online-community-growth-expectations?utm_campaign=DevRel%2BWeekly&utm_medium=email&utm_source=DevRel_Weekly_114 | 
+| 12 Metrics you can't miss in your community | Article | https://medium.com/@emiagazzoni/12-m%C3%A9tricas-que-voc%C3%AA-n%C3%A3o-pode-deixar-de-acompanhar-na-sua-comunidade-690524288909 | 
 
 # Tools
 
@@ -42,6 +44,28 @@ If you feel that something is missing, please do make a PR. As this repository g
 
 # Thematic Guides
 - [Discourse](Discourse.md)
+
+# Engineering Blogs
+
+* Netflix Tech Blog: https://medium.com/@NetflixTechBlog
+
+* Facebook Engineering blog: [https://engineering.fb.com](https://engineering.fb.com/ "https://engineering.fb.com/")
+
+* Stripe Engineering sub-section of their blog: https://stripe.com/blog/engineering
+
+* Instagram Engineering: [https://instagram-engineering.com](https://instagram-engineering.com/ "https://instagram-engineering.com/")
+
+* AirBnB Engineering: https://medium.com/airbnb-engineering
+
+* Spotify Engineering: [https://engineering.atspotify.com](https://engineering.atspotify.com/ "https://engineering.atspotify.com/")
+
+* Twitter Engineering: https://blog.twitter.com/engineering/
+
+* Uber Engineering: [https://eng.uber.com](https://eng.uber.com/ "https://eng.uber.com/")
+
+* https://www.bigeng.io/
+
+* https://www.hashicorp.com/blog/categories/hashicorp-voices
 
 # About
 

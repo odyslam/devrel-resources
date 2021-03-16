@@ -105,7 +105,7 @@ Discourse is not officially supporting Kubernetes, but as with any hype, there a
 
 The results have been mixed and there is an ongoing discussion on [meta.discourse](https://meta.discourse.org/t/installing-on-kubernetes/49329).
 
-Moreover, bitnami has released a [](https://hub.helm.sh/charts/bitnami/discourse)] for discourse. Note, that this release is not maintained by Discourse, thus you depend on bitnami to update the chart with the latest releases of Discourse.
+Moreover, bitnami has released a [helm chart](https://hub.helm.sh/charts/bitnami/discourse)] for discourse. Note, that this release is not maintained by Discourse, thus you depend on bitnami to update the chart with the latest releases of Discourse.
 
 ## Hosted Discourse 
 
@@ -145,6 +145,8 @@ Private groups are a great way for a team of users to communicate over issues th
 In open-source projects, this could be used for a discussion board between the engineers of the company and the maintainers who maintain the binary packages of the product in various linux distributions. Depending on company policy, this group could have the discussions in a hidden category or a public category where only people from  certain groups can publish. This is important so as to keep the category on topic and without noise.
 
 # Integrations
+
+Some tips on integrations.
 
 ## Export community data
 
@@ -227,6 +229,10 @@ All the following options work with Discourse:
 
 ## Company CRMs (e.g Salesforce, Hubspot)
 
+Discourse will gather in time, interesting information about your users and possibly customers. DevRel qualified leads are very important, as community membmers are much better customers than non-community membrers. This information regarding the community activity of each customer is important to exist on your CRM, so that the sales team can act on it.
+
+Using the Data Explorer and Discourse API, you can extract any informatio that you seem relevant, import it to your data lake (e.g Google BigQuery) and from there export it to your company CRM using their APIs. This setup, albeit more complex than using a service such as Zapier, offers much more flexibility.
+
 # General Tips
 
 - If you want your company (teammates, colleagues, etc.) to be active on the Discourse, make sure they can see the activity that happens there without having to visit (which they won't until it becomes a habit). An easy way to do that is to pipe Discourse topics into a Slack channel that anyone in the company can join, and then see if anything comes up that they could provide a response to. To go a step further, create some fun incentives inside the company for interacting with the community on the Discourse, like a special sticker or t-shirt.
@@ -264,6 +270,11 @@ Discourse has some defaults that are good enough for most cases. They are auto-p
 ✅ [Example](https://meta.discourse.org/faq)
 
 # Resources
+
+## Migrations
+
+- Nodebb to Discourse: Discourse has released an official guide and tool on [meta.discourse.org](https://meta.discourse.org/t/importing-nodebb-mongodb-to-discourse/126553). 
+  - I have written a [blog post](https://odyslam.me/blog/Migrating-from-Nodebb-to-Discourse/) regarding some "gotchas" that I found in the process.
 
 ## Discourse Themes
 
