@@ -44,6 +44,7 @@ If you feel that something is missing, please do make a PR. As this repository g
 
 # Thematic Guides
 - [Discourse](Discourse.md)
+- [Community Management](community-management.md)
 
 # Engineering Blogs
 
